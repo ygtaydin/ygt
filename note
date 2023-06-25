@@ -1,0 +1,5 @@
+if (char.IsLetter(item))
+                    totalLetterChar++;
+                if (!char.IsLetterOrDigit(item))
+                    totalSpecialChar++;
+                totalCharacter++;
